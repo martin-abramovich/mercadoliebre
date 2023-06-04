@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+.icono{
+    width: 15px;
+    height: 15px;
+}
+
+.img_logo{
+    width: 10rem;
+}
+
+.icono_cuotas{
+    margin-right: 8px;
+}
+
+.icono_nav{
+    margin-left: 5px;
+}
+
+.compra_cuotas{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header p{
+    font-size: 12px;
+}
+
+.producto{
+    background-color: white;
+    margin-bottom: 15px;
+    width: 80%;
+    
+}
+
+.descripcion_producto{
+    text-align: start;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.producto img{
+    height: 13rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titulo_producto{
+    color: #666;
+    font-size: 16px;
+}
+
+.titulo_seccion{
+    font-size: 24px;
+    text-align: start;
+    color: #666;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.burger{
+    background-color:#2968C8;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.burger_img{
+    padding: 6px;
+    height: 20px;
+}
+
+nav{
+    margin-left: 0px;
+}
+
+footer{
+    text-align: center;
+    color: #666;
+}
+
+.footer_icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer_section{
+    margin-bottom: 60px;
+}
+
+.copyright{
+    text-align: start;
+}
+
+main{
+    text-align: center;
+    width: 90%;
+    background-color: #ebebeb;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Celular */
+@media only screen and (max-width: 480px) {
+    
+    header nav{
+        display: none;
+    }
+
+    .titulo_producto{
+        display: none;
+    }
+
+}
+
+/* No celular */
+@media only screen and (min-width: 481px) {
+    
+    .burger{
+        display: none;
+    }
+
+    .producto{
+        box-shadow: 0px 0px 10px  rgb( 100 , 100 , 100 );
+    }
+
+    .productos{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media only screen and (min-width: 769px){
+
+}
