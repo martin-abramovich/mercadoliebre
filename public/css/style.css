@@ -16,9 +16,13 @@ header {
     justify-content: center;
 }
 
+nav{
+    display: none;
+}
+
 .icono{
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 
 .img_logo{
@@ -40,7 +44,6 @@ header {
 
 ul{
     list-style-type: none;
-    padding-bottom: 1rem;
 }
 
 nav a{
@@ -48,8 +51,10 @@ nav a{
     color: black;
 }
 
-header p{
-    font-size: 12px;
+header h2{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0.7rem;    
 }
 
 .producto{
@@ -70,8 +75,7 @@ header p{
 }
 
 .titulo_producto{
-    color: #666;
-    font-size: 16px;
+    display: none;
 }
 
 .titulo_seccion{
@@ -109,7 +113,7 @@ header p{
 }
 
 nav{
-    margin-left: 0px;
+    margin-left: 0px;    
 }
 
 footer{
@@ -146,16 +150,18 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
 }
 
 .ofertas{
     margin-bottom: 6rem;
-    padding: 3rem;
+    margin-top: 2rem;
     padding-top: 0;
 }
 
 .ultima_visita{
-    padding: 3rem;
     padding-top: 0;
 }
 
@@ -163,11 +169,6 @@ main{
     display: flex;
     align-items: center;
     padding: 20px;
-}
-
-.logo{
-    flex-basis: 50%;
-    margin-right: 20px;
 }
 
 .barra_busqueda{
@@ -186,7 +187,7 @@ main{
   }
   
   .barra_busqueda button {
-    margin-left: 5px;
+    margin: 5px;
     padding: 5px;
   }
 
@@ -196,30 +197,47 @@ main{
     height: 100%;
   }
 
-
-/* Celular */
-@media only screen and (max-width: 480px) {
-    
-    header nav{
-        display: none;
-    }
-
-    .titulo_producto{
-        display: none;
-    }
-    
-
-}
-
 /* No celular */
 @media only screen and (min-width: 481px) {
 
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;   
+        width: 100%;     
+    }
+
+    .main-header{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
     .img_logo{
         width: 10rem;
     }
     
     .burger{
         display: none;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+      
+    nav li {
+        margin: 0 5px;
+    }
+
+    .titulo_producto{
+        color: #666;
+        font-size: 16px;
     }
 
     .producto{
@@ -231,18 +249,12 @@ main{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-between;
-    }
-
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+    } 
 }
 
-@media only screen and (min-width: 769px){
+/* @media only screen and (min-width: 769px){
 
-    .productos{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-}
+} */
