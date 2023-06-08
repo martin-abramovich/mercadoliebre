@@ -1,6 +1,6 @@
 .form-prg{
     margin: 3vh;
-    margin-bottom: 2rem;
+    color: #666;
 }
 
 .form-prg input[type="text"]{
@@ -15,42 +15,7 @@
     height: 35px;
     border-radius: 3px;
     border-style: none;
-}
-
-.form-prg input[type="date"]{
-    width: 30%;
-    height: 35px;
-    border-radius: 3px;
-    border-style: none;
     color: #666;
-}
-
-.vend-comp{
-    display: flex;
-    justify-content: center;
-}
-
-.vend-comp label{
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-}
-
-.op-cbx{
-    width: 40%;
-    margin: auto;
-}
-
-.op-cbx label{
-    margin-right: 1.5rem;
-}
-
-form{
-    color: #666;
-}
-
-.form-prg h4{
-    margin-bottom: 0.5rem;
-    font-weight: bolder;
 }
 
 .blue-btn{
@@ -85,10 +50,20 @@ form{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.form-prg h4{
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.smbt a{
+    text-decoration: none;
+    color: white;
 }
 
 @media only screen and (max-width: 480px) {
+    
     .form-prg input[type="text"]{
         width: 100%;
     }
@@ -99,24 +74,20 @@ form{
         width: 100%;
     }
 
-    .blue-btn{
-        width: 100%;
+    .smbt{
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .op-cbx{
-        width: 90%;
+    .blue-btn{
+        width: 100%;
     }
 
     .white-btn{
         width: 100%;
         margin-bottom: 1rem;
         margin-right: 0;
-    }
-
-    .smbt{
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }

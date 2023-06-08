@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Mercado Liebre: Creá tu cuenta</title>
+    <title>Mercado Liebre: Ingresá</title>
 </head>
 <body>
     <header>
@@ -41,62 +41,18 @@
         <img class="banner" src="/img/img-home-banner.jpg" alt="">     
     </header>
     <main>
-        <form action="/" id="registro">
-            <div class="form-prg">
-                <h4>Nombre y apellido</h4>
-                <input type="text" id="name" placeholder="Juan Pérez">
-            </div>
+        <form action="/" id="login">
             <div class="form-prg">
                 <h4>Nombre de usuario</h4>
                 <input type="text" id="user" placeholder="juanperez313">
             </div>
             <div class="form-prg">
-                <h4>Fecha de nacimiento</h4>
-                <input type="date" id="nacimiento">
-            </div>
-            <div class="form-prg">
-                <h4>Domicilio</h4>
-                <input type="text" id="adress" placeholder="San Pedrito 322">
-            </div>
-            <div class="form-prg type-prf">
-                <h4>Perfil del usuario</h4>
-                <div class="vend-comp">
-                    <input type="radio" id="vendedor" name="type" value="vendedor">
-                    <label for="vendedor">Vendedor</label>
-                    <input type="radio" id="comprador" name="type" value="vendedor">
-                    <label for="comprador">Comprador</label>
-                </div>
-            </div>
-            <div class="form-prg">
                 <h4>Contraseña</h4>
                 <input type="password" id="password" placeholder="********">
             </div>
-            <div class="form-prg">
-                <h4>Confirmar contraseña</h4>
-                <input type="password" id="2-password" placeholder="********">
-            </div>
-            <div class="form-prg">
-                <h4>Categorías de interés</h4>
-                <div class="op-cbx">
-                    <input type="checkbox" id="cbx1">
-                    <label for="cbx1">Electro</label>
-                    <input type="checkbox" id="cbx2">
-                    <label for="cbx2">Moda</label>
-                    <input type="checkbox" id="cbx3">
-                    <label for="cbx3">Hogar</label>
-                    <input type="checkbox" id="cbx4">
-                    <label for="cbx4">Juguetería</label>
-                    <input type="checkbox" id="cbx5">
-                    <label for="cbx5">Vida sana</label>
-                </div>
-            </div>
-            <div class="form-prg">
-                <h4>Foto de usuario</h4>
-                <input type="file">
-            </div>
             <div class="smbt">
-                <button type="reset" class="white-btn">Borrar datos</button>
-                <input type="submit" value="Enviar" class="blue-btn">
+                <button type="reset" class="white-btn">Olvidé mi contraseña</button>
+                <input type="submit" value="Ingresar" class="blue-btn">
             </div>
         </form>
     </main>
