@@ -1,0 +1,98 @@
+.form-prg{
+    margin: 3vh;
+}
+
+.form-prg input[type="text"]{
+    width: 30%;
+    height: 35px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.form-prg input[type="password"]{
+    width: 30%;
+    height: 35px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.form-prg input[type="date"]{
+    width: 30%;
+    height: 35px;
+    border-radius: 3px;
+    border-style: none;
+    color: #666;
+}
+
+.vend-comp{
+    display: flex;
+    justify-content: center;
+}
+
+.vend-comp label{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.op-cbx label{
+    margin-right: 1.5rem;
+}
+
+form{
+    color: #666;
+}
+
+.form-prg h4{
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.blue-btn{
+    background-color: #2968C8;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+    width: 150px;
+    padding: 10px;
+}
+
+.white-btn{
+        background-color: white;
+        color: #2968C8;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+        border-style: none;
+        width: 150px;
+        padding: 10px;
+        margin-bottom: 1rem;
+}
+
+.smbt{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .form-prg input[type="text"]{
+        width: 100%;
+    }
+    .form-prg input[type="password"]{
+        width: 100%;
+    }
+    .form-prg input[type="date"]{
+        width: 100%;
+    }
+
+    .blue-btn{
+        width: 100%;
+    }
+
+    .white-btn{
+        width: 100%;
+    }
+}

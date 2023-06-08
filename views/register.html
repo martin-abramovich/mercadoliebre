@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Mercado Liebre: Creá tu cuenta</title>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="logo">
+                <img class="img_logo" src="/img/logo-mercado-liebre.svg" alt="logo de Mercado Liebre">
+            </div>
+            <form action="" class="barra_busqueda">
+                <input type="text" placeholder="Buscar productos, marcas">
+                <button><img class="icono" src="/img/lupa.png" alt=""></button>
+            </form>
+            <h2 class="compra_cuotas"><img class="icono icono_cuotas" src="/img/give-money.png" alt="Compras sin tarjeta">Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+        <nav>
+            <ul class="first_nav">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="second_nav">
+                <li><a href="/register">Creá tu cuenta</a><img class="icono icono_nav" src="/img/id.png" alt="id"></li>
+                <li><a href="#">Ingresá</a><img class="icono icono_nav" src="/img/login.png" alt="Login"></li>
+                <li><a href="#">Mis compras</a><img class="icono icono_nav" src="/img/cart.png" alt="Carrito de compras"></li>
+            </ul>
+        </nav>
+        <button class="burger"><img class="burger_img" src="/img/menu.png" alt="boton de menu"></button>  
+        <img class="banner" src="/img/img-home-banner.jpg" alt="">     
+    </header>
+    <main>
+        <form action="#" id="registro">
+            <div class="form-prg">
+                <h4>Nombre y apellido</h4>
+                <input type="text" id="name" placeholder="Juan Pérez">
+            </div>
+            <div class="form-prg">
+                <h4>Nombre de usuario</h4>
+                <input type="text" id="user" placeholder="juanperez313">
+            </div>
+            <div class="form-prg">
+                <h4>Fecha de nacimiento</h4>
+                <input type="date" id="nacimiento">
+            </div>
+            <div class="form-prg">
+                <h4>Domicilio</h4>
+                <input type="text" id="adress" placeholder="San Pedrito 322">
+            </div>
+            <div class="form-prg type-prf">
+                <h4>Perfil del usuario</h4>
+                <div class="vend-comp">
+                    <input type="radio" id="vendedor" name="type" value="vendedor">
+                    <label for="vendedor">Vendedor</label>
+                    <input type="radio" id="comprador" name="type" value="vendedor">
+                    <label for="comprador">Comprador</label>
+                </div>
+            </div>
+            <div class="form-prg">
+                <h4>Contraseña</h4>
+                <input type="password" id="password" placeholder="********">
+            </div>
+            <div class="form-prg">
+                <h4>Confirmar contraseña</h4>
+                <input type="password" id="2-password" placeholder="********">
+            </div>
+            <div class="form-prg">
+                <h4>Categorías de interés</h4>
+                <div class="op-cbx">
+                    <input type="checkbox" id="cbx1">
+                    <label for="cbx1">Electro</label>
+                    <input type="checkbox" id="cbx2">
+                    <label for="cbx2">Moda</label>
+                    <input type="checkbox" id="cbx3">
+                    <label for="cbx3">Hogar</label>
+                    <input type="checkbox" id="cbx4">
+                    <label for="cbx4">Juguetería</label>
+                    <input type="checkbox" id="cbx5">
+                    <label for="cbx5">Vida sana</label>
+                </div>
+            </div>
+            <div class="form-prg">
+                <h4>Foto de usuario</h4>
+                <input type="file">
+            </div>
+            <div class="smbt">
+                <button type="reset" class="white-btn">Borrar datos</button>
+                <button type="submit" class="blue-btn">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="secciones_footer">
+            <div class="footer_section">
+                <i class="fa-solid fa-credit-card footer_icon" style="color: #2968C8;"></i>
+                <h3>Pagá con tarjeta o efectivo</h3>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div class="footer_section">
+                <i class="fa-solid fa-gift footer_icon" style="color: #2968C8;"></i>
+                <h3>Envío gratis desde $ 2.500</h3>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div class="footer_section">
+                <i class="fa-solid fa-user-shield footer_icon" style="color: #2968C8;"></i>
+                <h3>Seguridad, de principio a fin</h3>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c9cf8990b8.js" crossorigin="anonymous"></script>
+</body>
+</html>
